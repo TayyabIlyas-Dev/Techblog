@@ -53,7 +53,7 @@ const Navbar: React.FC<navprops> = ({ logo }) => {
                 Blogs
               </span>
             </Link>
-            <Link href="/about" passHref>
+            <Link href="/features" passHref>
               <span
                 className="text-gray-600 font-semibold transition cursor-pointer hover:bg-[#f4f4f5] px-4 py-1.5 rounded-full hover:text-black focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600"
                 role="menuitem"
@@ -61,7 +61,7 @@ const Navbar: React.FC<navprops> = ({ logo }) => {
                 Feature
               </span>
             </Link>
-            <Link href="/contact" passHref>
+            <Link href="/analytics" passHref>
               <span
                 className="text-gray-600 font-semibold transition cursor-pointer hover:bg-[#f4f4f5] px-4 py-1.5 rounded-full hover:text-black focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600"
                 role="menuitem"
@@ -84,13 +84,13 @@ const Navbar: React.FC<navprops> = ({ logo }) => {
                   <Link href="/developers">Developers</Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem>
-                  <Link href="#">Designers</Link>
+                  <Link href="/developers">Designers</Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem>
-                  <Link href="#">CEO</Link>
+                  <Link href="/developers">CEO</Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem>
-                  <Link href="#">About Us</Link>
+                  <Link href="/aboutUs">About Us</Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem>
                   <Link href="/contactus">Contact Us</Link>
@@ -135,7 +135,7 @@ const Navbar: React.FC<navprops> = ({ logo }) => {
                         </Link>
                       </SheetClose>
                       <SheetClose asChild>
-                        <Link href="/about" passHref>
+                        <Link href="/aboutUs" passHref>
                           <span className="font-semibold hover:text-black focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600">
                             About
                           </span>
@@ -149,14 +149,14 @@ const Navbar: React.FC<navprops> = ({ logo }) => {
                         </Link>
                       </SheetClose>
                       <SheetClose asChild>
-                        <Link href="/designer" passHref>
+                        <Link href="/developers" passHref>
                           <span className="font-semibold hover:text-black focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600">
                             Designer
                           </span>
                         </Link>
                       </SheetClose>
                       <SheetClose asChild>
-                        <Link href="/ceo" passHref>
+                        <Link href="/developers" passHref>
                           <span className="font-semibold hover:text-black focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600">
                             CEO
                           </span>

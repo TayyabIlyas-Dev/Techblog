@@ -21,7 +21,7 @@ const HeroOne: React.FC<Hero1Props> = ({ heading, para1, btn1text, btn2text }) =
   const commonButtonStyles = "sm:text-xl px-10 py-5 sm:px-14 sm:p-8 rounded-full transition-transform duration-300";
 
   return (
-    <div className="h-[146vh] sm:h-[170vh] flex flex-col justify-center overflow-hidden items-center bg-gradient-to-t from-blue-500 via-blue-500 via-10% to-white">
+    <div className="h-[146vh] sm:h-[170vh] flex flex-col justify-center overflow-hidden items-center bg-gradient-to-t from-blue-500 via-blue-500 rounded-s-3xl rounded-r-3xl via-10% to-white">
       <div className="w-[75vw] sm:w-[58vw] md:w-[64vw]">
         <h1 className="text-center text-3xl text-black sm:text-6xl font-bold pt-[38vh] sm:pt-80">
           {heading}
